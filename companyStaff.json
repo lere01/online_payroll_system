@@ -1,0 +1,166 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "firstName": "Pace",
+      "lastName": "Herring",
+      "age": 41,
+      "employmentDate": "2017-02-17-01:00",
+      "cadre": 11,
+      "email": "paceherring@isotronic.com",
+      "contact": "+234 (874) 449-2473",
+      "address": "129 Jackson Street, Newry, Montana, 5685",
+      "paymentBTax": 536019,
+      "tax": 12181,
+      "paymentStatus": "paid"
+    },
+    {
+      "id": 3,
+      "firstName": "Ilene",
+      "lastName": "Mccray",
+      "age": 21,
+      "employmentDate": "2018-05-04-01:00",
+      "cadre": 9,
+      "email": "ilenemccray@isotronic.com",
+      "contact": "+234 (886) 576-3427",
+      "address": "971 Brighton Avenue, Columbus, North Dakota, 511",
+      "paymentBTax": 208271,
+      "tax": 14681,
+      "paymentStatus": "paid"
+    },
+    {
+      "id": 4,
+      "firstName": "Farrell",
+      "lastName": "Hartman",
+      "age": 36,
+      "employmentDate": "2017-02-20-01:00",
+      "cadre": 11,
+      "email": "farrellhartman@isotronic.com",
+      "contact": "+234 (956) 528-2771",
+      "address": "409 Ross Street, Greer, Missouri, 3161",
+      "paymentBTax": 564175,
+      "tax": 17425,
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": 5,
+      "firstName": "Gonzales",
+      "lastName": "Lamb",
+      "age": 40,
+      "employmentDate": "2017-09-26-01:00",
+      "cadre": 10,
+      "email": "gonzaleslamb@isotronic.com",
+      "contact": "+234 (889) 570-3108",
+      "address": "527 Berriman Street, Alamo, Utah, 4049",
+      "paymentBTax": 147588,
+      "tax": 11388,
+      "paymentStatus": "paid"
+    },
+    {
+      "id": 6,
+      "firstName": "Savannah",
+      "lastName": "Edwards",
+      "age": 22,
+      "employmentDate": "2015-05-31-01:00",
+      "cadre": 10,
+      "email": "savannahedwards@isotronic.com",
+      "contact": "+234 (833) 570-2683",
+      "address": "357 Barlow Drive, Magnolia, Massachusetts, 3355",
+      "paymentBTax": 520101,
+      "tax": 19425,
+      "paymentStatus": "unpaid"
+    },
+    {
+      "firstName": "Kola",
+      "lastName": "Oyedemi",
+      "age": "34",
+      "employmentDate": "2019-01-01",
+      "cadre": "9",
+      "email": "faithoyedemi@yahoo.com",
+      "contact": "23534263427",
+      "address": "asdho asodo asdiho asd",
+      "paymentBTax": "413531312",
+      "tax": "343",
+      "paymentStatus": "unpaid",
+      "id": 7
+    },
+    {
+      "firstName": "Cupril",
+      "lastName": "Adebayo",
+      "age": "35",
+      "employmentDate": "2019-09-02",
+      "cadre": "13",
+      "email": "faith@example.com",
+      "contact": "08163454015",
+      "address": "Digital Bridge Institute, No. 1, Nitel Road, Ohodi",
+      "paymentBTax": "300000",
+      "tax": "15000",
+      "paymentStatus": "unpaid",
+      "id": 8
+    },
+    {
+      "firstName": "Kola",
+      "lastName": "Daisi",
+      "age": "28",
+      "employmentDate": "2019-09-03",
+      "cadre": "10",
+      "email": "faith@example.com",
+      "contact": "08163454015",
+      "address": "asdho asodo asdiho asd",
+      "paymentBTax": "100000",
+      "tax": "8002",
+      "paymentStatus": "unpaid",
+      "id": 9
+    },
+    {
+      "firstName": "Kola",
+      "lastName": "Gbadebo",
+      "age": "29",
+      "employmentDate": "2019-09-02",
+      "cadre": "10",
+      "email": "kola@example.com",
+      "contact": "08163454015",
+      "address": "asdho asodo asdiho asd",
+      "paymentBTax": "150000",
+      "tax": "12000",
+      "paymentStatus": "paid",
+      "id": 10
+    },
+    {
+      "paymentStatus": "unpaid",
+      "firstName": "Meyiwa",
+      "lastName": "Salako",
+      "age": "46",
+      "employmentDate": "2019-09-02",
+      "cadre": "15",
+      "email": "meyiwa@example.com",
+      "contact": "08163454015",
+      "address": "asdho asodo asdiho asd",
+      "paymentBTax": "450000",
+      "tax": "15000",
+      "id": 11
+    }
+  ],
+  "admin": [
+    {
+      "name": "Kristen Holden",
+      "password": "5d80a5dfd8ab23fb36270a6d"
+    },
+    {
+      "name": "Isabella Short",
+      "password": "5d80a5df815d2e7df64ff1cb"
+    },
+    {
+      "name": "Palmer Acosta",
+      "password": "5d80a5df379b56c871a399bc"
+    },
+    {
+      "name": "England Hays",
+      "password": "5d80a5dffabfe88b46b315bc"
+    },
+    {
+      "name": "Lesa Hoover",
+      "password": "5d80a5df9a9a11611ea48a52"
+    }
+  ]
+}

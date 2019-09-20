@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#first-div {
+    margin: 100px auto;
+    width: 75%;
+}

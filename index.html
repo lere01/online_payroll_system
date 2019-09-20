@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Company Payroll Portal</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+  <section id="first-div">
+    <div class="jumbotron text-center">
+      <h2 class="card-title h2">Company Payroll Portal</h2>
+      <p class="blue-text my-4 font-weight-bold">Welcome to the Human Resource Department Payment Portal</p>
+      
+      <div class="row d-flex justify-content-center">
+        <div class="col-xl-7 pb-2">    
+          <p class="card-text">Please, note that only administrative staff can sign in.</p>
+        </div>
+      </div>
+        
+      <hr class="my-4">
+        
+      <div class="pt-2">
+        <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Sign In</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <form id="admin-signin-form">
+              <div class="modal-body mx-3">
+                <div class="md-form mb-5">
+                  <i class="prefix grey-text"></i>
+                  <input name="name" type="text" id="defaultForm-email" class="form-control validate" required>
+                  <label data-error="wrong" data-success="right" for="defaultForm-email">Name</label>
+                </div>
+
+                <div class="md-form mb-4">
+                  <i class="fas fa-lock prefix grey-text"></i>
+                  <input name="password" type="password" id="defaultForm-pass" class="form-control validate" required>
+                  <label data-error="wrong" data-success="right" for="defaultForm-pass">Password</label>
+                </div>
+              </div>
+
+              <div id="admin-sign-in" class="modal-footer d-flex justify-content-center">
+                <button class="btn btn-default">Sign In</button>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a href="#" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Sign In</a>
+        </div>
+        
+      </div>        
+    </div>        
+  </section>
+  
+
+  <!-- SCRIPTS -->  
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
