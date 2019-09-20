@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <script>
+        if (!(window.sessionStorage.name && window.sessionStorage.password)) {
+            window.location.replace('index.html');
+        }
+  </script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/employees.css" rel="stylesheet">
+</head>
+
+<body>
+  <section all-employees-display>
+    <div>
+        <button id="home-page-button" type="button" class="btn btn-md btn-primary waves-effect">Return to Home Page</button>
+        <button id="employee-payment" type="submit" class="btn btn-primary btn-md">Payment</button>
+    </div>
+          <div class="table table-hover table-fixed text-nowrap">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Full Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Employ Date</th>
+                    <th scope="col">Level</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Contact</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">PaymentBTax</th>
+                    <th scope="col">Tax</th>
+                  </tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+              </table>
+        </div>
+    <div display-div></div>
+  </section>
+
+  
+
+  <!-- SCRIPTS -->
+  
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/employeesList.js"></script>
+</body>
+
+</html>
